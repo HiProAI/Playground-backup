@@ -1,7 +1,5 @@
 # Playground-backup
-# Image Fetcher
-
-A Python script to download images from a specific platform using a user ID.
+A script to download images from a Playground.
 
 ## Prerequisites
 

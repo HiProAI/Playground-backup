@@ -43,27 +43,27 @@ Replace `[USER_ID]` with the target user's ID or profile URL.
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `USER_ID` | Required. User ID or full profile URL | `python image-fetcher.py cldm123456789abcd` |
-| `--output` | Custom output directory | `python image-fetcher.py cldm123456789abcd --output my_images` |
-| `--only-png` | Download only PNG images | `python image-fetcher.py cldm123456789abcd --only-png` |
-| `--only-jpeg` | Download only JPEG images | `python image-fetcher.py cldm123456789abcd --only-jpeg` |
-| `--name-by-date` | Rename files to creation date | `python image-fetcher.py cldm123456789abcd --name-by-date` |
+| `USER_ID` | Required. User ID or full profile URL | `python image-fetcher.py cldm1234abcd` |
+| `--output` | Custom output directory | `python image-fetcher.py cldm1234abcd --output my_images` |
+| `--only-png` | Download only PNG images | `python image-fetcher.py cldm1234abcd --only-png` |
+| `--only-jpeg` | Download only JPEG images | `python image-fetcher.py cldm1234abcd --only-jpeg` |
+| `--name-by-date` | Rename files to creation date | `python image-fetcher.py cldm1234abcd --name-by-date` |
 
 ### Examples
 
 1. Download all images for a user:
    ```bash
-   python image-fetcher.py cldm123456789abcdefjhig
+   python image-fetcher.py cldm1234abcdefjhig
    ```
 
 2. Download only PNG images to a specific directory:
    ```bash
-   python image-fetcher.py cldm123456789abcdefjhig --output ./playground_images --only-png
+   python image-fetcher.py cldm1234abcdefjhig --output ./playground_images --only-png
    ```
 
 3. Download images with date-based filenames:
    ```bash
-   python image-fetcher.py cldm123456789abcdefjhig --name-by-date
+   python image-fetcher.py cldm1234abcdefjhig --name-by-date
    ```
 
 ## Output Structure

@@ -31,7 +31,7 @@ By default, the script saves images under the names specified in json and on the
 
 But the images in the folder will be unordered.
 
-But if you use the `--name-by-date` option, this will add the time of its creation to the front of the image name, which will allow you to organize them.
+But if you use the `--name-by-date` option, this will add the time of its creation at the start of the image name, which will allow you to organize them.
 
 Run:
 ```bash
@@ -43,11 +43,11 @@ Replace `[USER_ID]` with the target user's ID or profile URL.
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `USER_ID` | Required. User ID or full profile URL | `python image-fetcher.py cldm123456789abcdefjhig` |
-| `--output` | Custom output directory | `python image-fetcher.py cldm123456789abcdefjhig --output my_images` |
-| `--only-png` | Download only PNG images | `python image-fetcher.py cldm123456789abcdefjhig --only-png` |
-| `--only-jpeg` | Download only JPEG images | `python image-fetcher.py cldm123456789abcdefjhig --only-jpeg` |
-| `--name-by-date` | Rename files to creation date | `python image-fetcher.py cldm123456789abcdefjhig --name-by-date` |
+| `USER_ID` | Required. User ID or full profile URL | `python image-fetcher.py cldm123456789abcd` |
+| `--output` | Custom output directory | `python image-fetcher.py cldm123456789abcd --output my_images` |
+| `--only-png` | Download only PNG images | `python image-fetcher.py cldm123456789abcd --only-png` |
+| `--only-jpeg` | Download only JPEG images | `python image-fetcher.py cldm123456789abcd --only-jpeg` |
+| `--name-by-date` | Rename files to creation date | `python image-fetcher.py cldm123456789abcd --name-by-date` |
 
 ### Examples
 

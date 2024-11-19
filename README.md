@@ -1,5 +1,5 @@
 # Playground-backup
-A script to download images from a Playground.
+A script to download profile public images from a Playground.
 
 ## Prerequisites
 

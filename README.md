@@ -32,6 +32,8 @@ By default, the script saves images under the names specified in json and on the
 But the images in the folder will be unordered.
 
 But if you use the `--name-by-date option`, this will add the time of its creation to the front of the image name, which will allow you to organize them.
+
+Run:
 ```bash
 python image-fetcher.py [USER_ID]
 ```
@@ -61,7 +63,7 @@ Replace `[USER_ID]` with the target user's ID or profile URL.
 
 3. Download images with date-based filenames:
    ```bash
-   python image-fetcher.py https://playground.com/profile/cldm123456789abcdefjhig --name-by-date
+   python image-fetcher.py cldm123456789abcdefjhig --name-by-date
    ```
 
 ## Output Structure

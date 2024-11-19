@@ -31,7 +31,7 @@ By default, the script saves images under the names specified in json and on the
 
 But the images in the folder will be unordered.
 
-But if you use the `--name-by-date option`, this will add the time of its creation to the front of the image name, which will allow you to organize them.
+But if you use the `--name-by-date` option, this will add the time of its creation to the front of the image name, which will allow you to organize them.
 
 Run:
 ```bash

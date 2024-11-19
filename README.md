@@ -21,6 +21,17 @@ pip install requests
 ## Usage
 
 ### Basic Usage
+Place the script in the folder where you want to save the images, and then open the folder in the terminal.
+
+The script downloads data in json format, which contains available information about the images: prompt, name, dimensions, likes, generation settings, and more.
+
+By default, the script saves both formats (png and jpeg), but you can specify only one, see the instructions below.
+
+By default, the script saves images under the names specified in json and on the site, this will allow you to find image data by its name.
+
+But the images in the folder will be unordered.
+
+But if you use the `--name-by-date option`, this will add the time of its creation to the front of the image name, which will allow you to organize them.
 ```bash
 python image-fetcher.py [USER_ID]
 ```
